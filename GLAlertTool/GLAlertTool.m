@@ -46,13 +46,7 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
 
 #pragma mark - Init
 + (void)load {
-    
-    UIActivityIndicatorView *indicatorView = nil;
-#if __IPHONE_OS_VERSION_MIN_REQUIRED < 90000
-    indicatorView = [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil];
-#else
-    indicatorView = [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]];
-#endif
+    UIActivityIndicatorView *indicatorView = [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]];
     // 设置指示器颜色
     indicatorView.color = [UIColor whiteColor];
 }
