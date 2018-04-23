@@ -1,0 +1,1 @@
+../../../GLScanner/GLScanner/NSString+GLLocalizedString.h

@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023C6016A7E7DFA0E9049686F59FB6F9 /* GLScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C417F58D31A903DA50B3329C139F8E /* GLScanner-dummy.m */; };
+		0831A57DE60D140541E8991BBC449B90 /* NSString+GLLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = A784070B31B62BCAFA24BED0DD14C5BD /* NSString+GLLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09989CE3C85BE110BE2794F3710EA54C /* UIImage+GLAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856C11BDD71072C45A8AA8CE005AE98 /* UIImage+GLAdd.m */; };
+		12D3FEF2D01D7D82D1010246CF2E3462 /* GLScannerBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 304840BED5D8906A5EBE88C1B64BC412 /* GLScannerBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1911E70FC4CB76767ABAB6FD9BFC9BA6 /* NSString+GLLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FC12E8938850E861C31A0DF6136B07 /* NSString+GLLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		22546C191DF0490F6588A28B49AA2161 /* GLScannerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6C47D0E8E0CBAC6273DF7D876E5632 /* GLScannerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B931C3090FDF7A6F5867BE0C207726 /* GLScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D3067F9232D356D90F1D58B32B55FE /* GLScannerBorder.m */; };
+		26C3197929B567ED0DFE5B84AF1E350A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 138D39C6AD5877EF607D505A626DD9A2 /* MBProgressHUD.m */; };
+		5E6DB4DB190DF08094B7B957614FBC0C /* NSString+GLLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = B88E0778609D1F9B7708BE3F97416E34 /* NSString+GLLocalizedString.m */; };
+		67450979D95FF14CE911C319226873DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		73CE8D41843473C345877400600C41AA /* GLScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCABEBCE0983379AF4782F5C9C5B013 /* GLScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B416726F8B87E98B7E6F006B3790CA5 /* GLQrScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C6F6EAF288A6E5F36E5E0BEBA60BB4 /* GLQrScanner.m */; };
+		8765FCE5FE6DF8C9BA287D6F388ECFA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		8959F8D8A04D6C100E9B94152D06D801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		8BC7708B4F37B878E6AE6F619405615A /* GLScannerController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DFB5431A789B4E95B465EA00E16A8A /* GLScannerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		9C8BE5FD5AA097ADA8CD56F6B8430F30 /* GLScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0FAD535E942961F32CA1BBF47268F /* GLScannerMaskView.m */; };
+		A69D0DDF81FF56A6DB1FD809EE89E415 /* Pods-GLAlertToolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7716C0BAA9D018435A3D1849721DC /* Pods-GLAlertToolDemo-dummy.m */; };
+		AA6B1A2D53A7CBF531C1799AE465F311 /* GLScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC31C944762F9F7222ABFD74A9E89E /* GLScannerViewController.m */; };
+		AB7E224D9CBF15F95C2445D3CEB872B0 /* GLScannerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF16873B517C111BAAD70EBD4678DF7 /* GLScannerConfig.m */; };
+		AEDC142AE8071738038286CB0507D78E /* NSString+GLLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAE64389B9CE6BA805BD47D9FD7FF1 /* NSString+GLLanguage.m */; };
+		AEFD785397FF40006487C68286E97022 /* UIImage+GLAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8148E70E7E7F880F9CDCC8CC7798A588 /* UIImage+GLAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B639FD104FE1BE46217DA3D98BA620BD /* GLScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B3C3447CAC18C9A0D5E8F8EFED55C8 /* GLScannerController.m */; };
+		C73FEAB0544F2FFF6318DED03963F2FD /* GLScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC2CB0C28B42BA1475A1C6FF0390E87 /* GLScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD16C89A3F8AC488AC37384D0931D0EA /* GLScannerMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1030E84EDF9A3045F8F231E2C008D596 /* GLScannerMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF1F8E60701794FD10BE3CB8A6EAA211 /* GLLanguageTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D547CBB552829C65479C809B0E67D9 /* GLLanguageTool-dummy.m */; };
+		D64A57456004F49DE91971F27713AC50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		DBBE03A77F2D59C1BE324977FBEC4CBF /* GLQrScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D50940AE48A43CFCED9D2C8B0B865F22 /* GLQrScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDA177072C91BE5C8ABCE1CBE6912EB /* GLScannerError.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A290BB9BF0B166A2339A9DDD3652C9 /* GLScannerError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D498AFB6C130B39D505BB1C9238C6 /* MBProgressHUD-dummy.m */; };
+		E5266E39B2FA9632FED1C620DB33C96D /* GLLanguageTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C2EC2ACD54077890A054CFD6D8CF4E /* GLLanguageTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BFD99461DCADE74727943CEBB1D767 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13CBF3A40A5441C4BE6880E00ED5577 /* GLLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E391E94784F36695FD8081723DC46F60 /* GLLanguageTool.m */; };
+		F4DFFB6A9B845FFBDBDA7E765F2817C8 /* GLScannerError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA80A149BBBBAB61D40C42909E33B5 /* GLScannerError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1570A9C2A1D891F129EA9054B42803F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29759E5BFAF7C5B846F666DD2A5B2C86;
+			remoteInfo = GLLanguageTool;
+		};
+		482F85AC79CCFD5E5BAAD0CA0F9B5F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B6A72ED707D2D4DADE7C20E4CB4F94C;
+			remoteInfo = GLScanner;
+		};
+		CD1CBBC909B9ED3B6D9DF8BC41264C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F40C1C409F7965BBC7E3C67EE746D8 /* Pods-GLAlertToolDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLAlertToolDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09B754C2CCD500F85FD4D45883320F99 /* Pods-GLAlertToolDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLAlertToolDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1030E84EDF9A3045F8F231E2C008D596 /* GLScannerMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerMaskView.h; path = GLScanner/GLScannerMaskView.h; sourceTree = "<group>"; };
+		138D39C6AD5877EF607D505A626DD9A2 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		193C1C1E9897DAE3C6ACB358489EBB61 /* Pods-GLAlertToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLAlertToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF16873B517C111BAAD70EBD4678DF7 /* GLScannerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerConfig.m; path = GLScanner/GLScannerConfig.m; sourceTree = "<group>"; };
+		304840BED5D8906A5EBE88C1B64BC412 /* GLScannerBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerBorder.h; path = GLScanner/GLScannerBorder.h; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		35A290BB9BF0B166A2339A9DDD3652C9 /* GLScannerError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerError.h; path = GLScanner/GLScannerError.h; sourceTree = "<group>"; };
+		37C417F58D31A903DA50B3329C139F8E /* GLScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLScanner-dummy.m"; sourceTree = "<group>"; };
+		397F09F1FCBBDE15FBDC7589B5882748 /* GLScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLScanner-prefix.pch"; sourceTree = "<group>"; };
+		4A1D498AFB6C130B39D505BB1C9238C6 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		4A2C606F3DB7C8E86227A21E8AB6FCBF /* libGLScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLScanner.a; path = libGLScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBC31C944762F9F7222ABFD74A9E89E /* GLScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerViewController.m; path = GLScanner/GLScannerViewController.m; sourceTree = "<group>"; };
+		4DEAE64389B9CE6BA805BD47D9FD7FF1 /* NSString+GLLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+GLLanguage.m"; path = "GLLanguageTool/NSString+GLLanguage.m"; sourceTree = "<group>"; };
+		54C92BDEF9CADCE2C548E1619F1424DA /* Pods-GLAlertToolDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLAlertToolDemo-resources.sh"; sourceTree = "<group>"; };
+		551C9DE09E499618B124E23105DECBE9 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		57D3A15693AA59AFD83533A7F97A3F31 /* libGLLanguageTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLLanguageTool.a; path = libGLLanguageTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5843171EB7FFB9FB06FEE865D18E8513 /* Pods-GLAlertToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLAlertToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62D3067F9232D356D90F1D58B32B55FE /* GLScannerBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerBorder.m; path = GLScanner/GLScannerBorder.m; sourceTree = "<group>"; };
+		65BFD99461DCADE74727943CEBB1D767 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6BBA80A149BBBBAB61D40C42909E33B5 /* GLScannerError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerError.m; path = GLScanner/GLScannerError.m; sourceTree = "<group>"; };
+		6D9664FD52395C78AB067F7929167529 /* GLLanguageTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLLanguageTool.xcconfig; sourceTree = "<group>"; };
+		6E6C47D0E8E0CBAC6273DF7D876E5632 /* GLScannerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerConfig.h; path = GLScanner/GLScannerConfig.h; sourceTree = "<group>"; };
+		70C2EC2ACD54077890A054CFD6D8CF4E /* GLLanguageTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLLanguageTool.h; path = GLLanguageTool/GLLanguageTool.h; sourceTree = "<group>"; };
+		7FCD9458B4EBA44F1B132B75733EF1E5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		8148E70E7E7F880F9CDCC8CC7798A588 /* UIImage+GLAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GLAdd.h"; path = "GLScanner/UIImage+GLAdd.h"; sourceTree = "<group>"; };
+		81D547CBB552829C65479C809B0E67D9 /* GLLanguageTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLLanguageTool-dummy.m"; sourceTree = "<group>"; };
+		84FC12E8938850E861C31A0DF6136B07 /* NSString+GLLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GLLanguage.h"; path = "GLLanguageTool/NSString+GLLanguage.h"; sourceTree = "<group>"; };
+		8856C11BDD71072C45A8AA8CE005AE98 /* UIImage+GLAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GLAdd.m"; path = "GLScanner/UIImage+GLAdd.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E87F10F1B4B909FC5B2E51B3F1C90F /* GLScanner.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GLScanner.bundle; path = GLScanner/Resource/GLScanner.bundle; sourceTree = "<group>"; };
+		99C6F6EAF288A6E5F36E5E0BEBA60BB4 /* GLQrScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLQrScanner.m; path = GLScanner/GLQrScanner.m; sourceTree = "<group>"; };
+		9B02B5F0B103B416C9C0FFAFE9062573 /* Pods-GLAlertToolDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLAlertToolDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A0B3C3447CAC18C9A0D5E8F8EFED55C8 /* GLScannerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerController.m; path = GLScanner/GLScannerController.m; sourceTree = "<group>"; };
+		A2C0FAD535E942961F32CA1BBF47268F /* GLScannerMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLScannerMaskView.m; path = GLScanner/GLScannerMaskView.m; sourceTree = "<group>"; };
+		A784070B31B62BCAFA24BED0DD14C5BD /* NSString+GLLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GLLocalizedString.h"; path = "GLScanner/NSString+GLLocalizedString.h"; sourceTree = "<group>"; };
+		B88E0778609D1F9B7708BE3F97416E34 /* NSString+GLLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+GLLocalizedString.m"; path = "GLScanner/NSString+GLLocalizedString.m"; sourceTree = "<group>"; };
+		BC0281466502FA7872C0FCEB38C10E6A /* GLLanguageTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLLanguageTool-prefix.pch"; sourceTree = "<group>"; };
+		BEF8F40DD5B24BD6C3BEF420A60E2763 /* libPods-GLAlertToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GLAlertToolDemo.a"; path = "libPods-GLAlertToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0C858B75B421B905653820C83AB32 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DFB5431A789B4E95B465EA00E16A8A /* GLScannerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerController.h; path = GLScanner/GLScannerController.h; sourceTree = "<group>"; };
+		D50940AE48A43CFCED9D2C8B0B865F22 /* GLQrScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLQrScanner.h; path = GLScanner/GLQrScanner.h; sourceTree = "<group>"; };
+		D5F7716C0BAA9D018435A3D1849721DC /* Pods-GLAlertToolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLAlertToolDemo-dummy.m"; sourceTree = "<group>"; };
+		DBCABEBCE0983379AF4782F5C9C5B013 /* GLScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScannerViewController.h; path = GLScanner/GLScannerViewController.h; sourceTree = "<group>"; };
+		DEB1EB7786E5089B18A5ADB23BEA1C72 /* GLScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLScanner.xcconfig; sourceTree = "<group>"; };
+		E391E94784F36695FD8081723DC46F60 /* GLLanguageTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLLanguageTool.m; path = GLLanguageTool/GLLanguageTool.m; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFC2CB0C28B42BA1475A1C6FF0390E87 /* GLScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLScanner.h; path = GLScanner/GLScanner.h; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E53D37B148C621FDA8574080C49246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64A57456004F49DE91971F27713AC50 /* Foundation.framework in Frameworks */,
+				8959F8D8A04D6C100E9B94152D06D801 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6327852E2E30C78FF6ACC7670F95AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C3197929B567ED0DFE5B84AF1E350A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80140391DB5154429CA849A53984983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8765FCE5FE6DF8C9BA287D6F388ECFA7 /* Foundation.framework in Frameworks */,
+				67450979D95FF14CE911C319226873DF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */,
+				93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */,
+				7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FEE862FDEEBF8556B024B1542DEF07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D9664FD52395C78AB067F7929167529 /* GLLanguageTool.xcconfig */,
+				81D547CBB552829C65479C809B0E67D9 /* GLLanguageTool-dummy.m */,
+				BC0281466502FA7872C0FCEB38C10E6A /* GLLanguageTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GLLanguageTool";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CC0D4C6CDA9E366ACA5597FA08C124 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB1EB7786E5089B18A5ADB23BEA1C72 /* GLScanner.xcconfig */,
+				37C417F58D31A903DA50B3329C139F8E /* GLScanner-dummy.m */,
+				397F09F1FCBBDE15FBDC7589B5882748 /* GLScanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GLScanner";
+			sourceTree = "<group>";
+		};
+		2F5EFB0E8754920234517AF8621206E1 /* GLScanner */ = {
+			isa = PBXGroup;
+			children = (
+				D50940AE48A43CFCED9D2C8B0B865F22 /* GLQrScanner.h */,
+				99C6F6EAF288A6E5F36E5E0BEBA60BB4 /* GLQrScanner.m */,
+				EFC2CB0C28B42BA1475A1C6FF0390E87 /* GLScanner.h */,
+				304840BED5D8906A5EBE88C1B64BC412 /* GLScannerBorder.h */,
+				62D3067F9232D356D90F1D58B32B55FE /* GLScannerBorder.m */,
+				6E6C47D0E8E0CBAC6273DF7D876E5632 /* GLScannerConfig.h */,
+				1AF16873B517C111BAAD70EBD4678DF7 /* GLScannerConfig.m */,
+				C3DFB5431A789B4E95B465EA00E16A8A /* GLScannerController.h */,
+				A0B3C3447CAC18C9A0D5E8F8EFED55C8 /* GLScannerController.m */,
+				35A290BB9BF0B166A2339A9DDD3652C9 /* GLScannerError.h */,
+				6BBA80A149BBBBAB61D40C42909E33B5 /* GLScannerError.m */,
+				1030E84EDF9A3045F8F231E2C008D596 /* GLScannerMaskView.h */,
+				A2C0FAD535E942961F32CA1BBF47268F /* GLScannerMaskView.m */,
+				DBCABEBCE0983379AF4782F5C9C5B013 /* GLScannerViewController.h */,
+				4BBC31C944762F9F7222ABFD74A9E89E /* GLScannerViewController.m */,
+				A784070B31B62BCAFA24BED0DD14C5BD /* NSString+GLLocalizedString.h */,
+				B88E0778609D1F9B7708BE3F97416E34 /* NSString+GLLocalizedString.m */,
+				8148E70E7E7F880F9CDCC8CC7798A588 /* UIImage+GLAdd.h */,
+				8856C11BDD71072C45A8AA8CE005AE98 /* UIImage+GLAdd.m */,
+				98DD757C5600A3638ADAA7C3794D23D6 /* Resources */,
+				18CC0D4C6CDA9E366ACA5597FA08C124 /* Support Files */,
+			);
+			name = GLScanner;
+			path = GLScanner;
+			sourceTree = "<group>";
+		};
+		2F780CDCC02EAC9220D2A6B089A3D8C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD9458B4EBA44F1B132B75733EF1E5 /* MBProgressHUD.xcconfig */,
+				4A1D498AFB6C130B39D505BB1C9238C6 /* MBProgressHUD-dummy.m */,
+				551C9DE09E499618B124E23105DECBE9 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		53C42E987F41BF246B5DD36E354A0F79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9AAE4A97EC7193EEA40E621100FE4 /* GLLanguageTool */,
+				2F5EFB0E8754920234517AF8621206E1 /* GLScanner */,
+				E17C6365E992D36CCD70405749AA90A3 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				53C42E987F41BF246B5DD36E354A0F79 /* Pods */,
+				C94370243CD5A25F9284221F1E3B5BD5 /* Products */,
+				8AB42637C3D10F60359511447C6FC325 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC9AAE4A97EC7193EEA40E621100FE4 /* GLLanguageTool */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EC2ACD54077890A054CFD6D8CF4E /* GLLanguageTool.h */,
+				E391E94784F36695FD8081723DC46F60 /* GLLanguageTool.m */,
+				84FC12E8938850E861C31A0DF6136B07 /* NSString+GLLanguage.h */,
+				4DEAE64389B9CE6BA805BD47D9FD7FF1 /* NSString+GLLanguage.m */,
+				02FEE862FDEEBF8556B024B1542DEF07 /* Support Files */,
+			);
+			name = GLLanguageTool;
+			path = GLLanguageTool;
+			sourceTree = "<group>";
+		};
+		8AB42637C3D10F60359511447C6FC325 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				963706437E1F71C8442503F0E3D8E6D5 /* Pods-GLAlertToolDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		963706437E1F71C8442503F0E3D8E6D5 /* Pods-GLAlertToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00F40C1C409F7965BBC7E3C67EE746D8 /* Pods-GLAlertToolDemo-acknowledgements.markdown */,
+				09B754C2CCD500F85FD4D45883320F99 /* Pods-GLAlertToolDemo-acknowledgements.plist */,
+				D5F7716C0BAA9D018435A3D1849721DC /* Pods-GLAlertToolDemo-dummy.m */,
+				9B02B5F0B103B416C9C0FFAFE9062573 /* Pods-GLAlertToolDemo-frameworks.sh */,
+				54C92BDEF9CADCE2C548E1619F1424DA /* Pods-GLAlertToolDemo-resources.sh */,
+				193C1C1E9897DAE3C6ACB358489EBB61 /* Pods-GLAlertToolDemo.debug.xcconfig */,
+				5843171EB7FFB9FB06FEE865D18E8513 /* Pods-GLAlertToolDemo.release.xcconfig */,
+			);
+			name = "Pods-GLAlertToolDemo";
+			path = "Target Support Files/Pods-GLAlertToolDemo";
+			sourceTree = "<group>";
+		};
+		98DD757C5600A3638ADAA7C3794D23D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94E87F10F1B4B909FC5B2E51B3F1C90F /* GLScanner.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C94370243CD5A25F9284221F1E3B5BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D3A15693AA59AFD83533A7F97A3F31 /* libGLLanguageTool.a */,
+				4A2C606F3DB7C8E86227A21E8AB6FCBF /* libGLScanner.a */,
+				C2C0C858B75B421B905653820C83AB32 /* libMBProgressHUD.a */,
+				BEF8F40DD5B24BD6C3BEF420A60E2763 /* libPods-GLAlertToolDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17C6365E992D36CCD70405749AA90A3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				65BFD99461DCADE74727943CEBB1D767 /* MBProgressHUD.h */,
+				138D39C6AD5877EF607D505A626DD9A2 /* MBProgressHUD.m */,
+				2F780CDCC02EAC9220D2A6B089A3D8C0 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA321C98029015AA4895C0B26891D8F8 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F083CA82725FB2C8273CB6981A779A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5266E39B2FA9632FED1C620DB33C96D /* GLLanguageTool.h in Headers */,
+				1911E70FC4CB76767ABAB6FD9BFC9BA6 /* NSString+GLLanguage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479F95CB7092074D66BF8ABC1243C35E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBE03A77F2D59C1BE324977FBEC4CBF /* GLQrScanner.h in Headers */,
+				C73FEAB0544F2FFF6318DED03963F2FD /* GLScanner.h in Headers */,
+				12D3FEF2D01D7D82D1010246CF2E3462 /* GLScannerBorder.h in Headers */,
+				22546C191DF0490F6588A28B49AA2161 /* GLScannerConfig.h in Headers */,
+				8BC7708B4F37B878E6AE6F619405615A /* GLScannerController.h in Headers */,
+				DDDA177072C91BE5C8ABCE1CBE6912EB /* GLScannerError.h in Headers */,
+				CD16C89A3F8AC488AC37384D0931D0EA /* GLScannerMaskView.h in Headers */,
+				73CE8D41843473C345877400600C41AA /* GLScannerViewController.h in Headers */,
+				0831A57DE60D140541E8991BBC449B90 /* NSString+GLLocalizedString.h in Headers */,
+				AEFD785397FF40006487C68286E97022 /* UIImage+GLAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29759E5BFAF7C5B846F666DD2A5B2C86 /* GLLanguageTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BAA7365BF19C3E6FD4D719B4A6B8BB /* Build configuration list for PBXNativeTarget "GLLanguageTool" */;
+			buildPhases = (
+				2FFD7E3C334452FDEFEE1A2D8A04C16D /* Sources */,
+				17E53D37B148C621FDA8574080C49246 /* Frameworks */,
+				1F083CA82725FB2C8273CB6981A779A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLLanguageTool;
+			productName = GLLanguageTool;
+			productReference = 57D3A15693AA59AFD83533A7F97A3F31 /* libGLLanguageTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B6A72ED707D2D4DADE7C20E4CB4F94C /* GLScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615143DC534ED27E350F4F773670205A /* Build configuration list for PBXNativeTarget "GLScanner" */;
+			buildPhases = (
+				4994B3D388546BBE19A376653F49EF9D /* Sources */,
+				A80140391DB5154429CA849A53984983 /* Frameworks */,
+				479F95CB7092074D66BF8ABC1243C35E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLScanner;
+			productName = GLScanner;
+			productReference = 4A2C606F3DB7C8E86227A21E8AB6FCBF /* libGLScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				7E4305B404C5BA5156646C69578ADD62 /* Sources */,
+				F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */,
+				1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = C2C0C858B75B421B905653820C83AB32 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B289B1F905F6A41FF6ECD85E4A13FDD3 /* Pods-GLAlertToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24BC42B57550B82C0BED1EE256E4BAE /* Build configuration list for PBXNativeTarget "Pods-GLAlertToolDemo" */;
+			buildPhases = (
+				E011EE7992FBB432C4DC2232EE5ADDBB /* Sources */,
+				7C6327852E2E30C78FF6ACC7670F95AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6237FD4328AA2542C49B5D6FDEFB528C /* PBXTargetDependency */,
+				11B577BDA64981179159DE70462695BB /* PBXTargetDependency */,
+				F57083E354575D606571AEDE024FE0C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLAlertToolDemo";
+			productName = "Pods-GLAlertToolDemo";
+			productReference = BEF8F40DD5B24BD6C3BEF420A60E2763 /* libPods-GLAlertToolDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C94370243CD5A25F9284221F1E3B5BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29759E5BFAF7C5B846F666DD2A5B2C86 /* GLLanguageTool */,
+				2B6A72ED707D2D4DADE7C20E4CB4F94C /* GLScanner */,
+				586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */,
+				B289B1F905F6A41FF6ECD85E4A13FDD3 /* Pods-GLAlertToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FFD7E3C334452FDEFEE1A2D8A04C16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1F8E60701794FD10BE3CB8A6EAA211 /* GLLanguageTool-dummy.m in Sources */,
+				F13CBF3A40A5441C4BE6880E00ED5577 /* GLLanguageTool.m in Sources */,
+				AEDC142AE8071738038286CB0507D78E /* NSString+GLLanguage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4994B3D388546BBE19A376653F49EF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B416726F8B87E98B7E6F006B3790CA5 /* GLQrScanner.m in Sources */,
+				023C6016A7E7DFA0E9049686F59FB6F9 /* GLScanner-dummy.m in Sources */,
+				26B931C3090FDF7A6F5867BE0C207726 /* GLScannerBorder.m in Sources */,
+				AB7E224D9CBF15F95C2445D3CEB872B0 /* GLScannerConfig.m in Sources */,
+				B639FD104FE1BE46217DA3D98BA620BD /* GLScannerController.m in Sources */,
+				F4DFFB6A9B845FFBDBDA7E765F2817C8 /* GLScannerError.m in Sources */,
+				9C8BE5FD5AA097ADA8CD56F6B8430F30 /* GLScannerMaskView.m in Sources */,
+				AA6B1A2D53A7CBF531C1799AE465F311 /* GLScannerViewController.m in Sources */,
+				5E6DB4DB190DF08094B7B957614FBC0C /* NSString+GLLocalizedString.m in Sources */,
+				09989CE3C85BE110BE2794F3710EA54C /* UIImage+GLAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4305B404C5BA5156646C69578ADD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */,
+				536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E011EE7992FBB432C4DC2232EE5ADDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69D0DDF81FF56A6DB1FD809EE89E415 /* Pods-GLAlertToolDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B577BDA64981179159DE70462695BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLScanner;
+			target = 2B6A72ED707D2D4DADE7C20E4CB4F94C /* GLScanner */;
+			targetProxy = 482F85AC79CCFD5E5BAAD0CA0F9B5F76 /* PBXContainerItemProxy */;
+		};
+		6237FD4328AA2542C49B5D6FDEFB528C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLLanguageTool;
+			target = 29759E5BFAF7C5B846F666DD2A5B2C86 /* GLLanguageTool */;
+			targetProxy = 1570A9C2A1D891F129EA9054B42803F9 /* PBXContainerItemProxy */;
+		};
+		F57083E354575D606571AEDE024FE0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
+			targetProxy = CD1CBBC909B9ED3B6D9DF8BC41264C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000EFF17B2F9F4744BF333320719B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCD9458B4EBA44F1B132B75733EF1E5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D090822B46370C78C8DF7F475507E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1EB7786E5089B18A5ADB23BEA1C72 /* GLScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLScanner/GLScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B82BE8D3640F4F4D0871B0FCFB96317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5843171EB7FFB9FB06FEE865D18E8513 /* Pods-GLAlertToolDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9EB8F32234128850C4A4E3CA4F16FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9664FD52395C78AB067F7929167529 /* GLLanguageTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLLanguageTool/GLLanguageTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725D3584DF233EE5FD2821169628A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9664FD52395C78AB067F7929167529 /* GLLanguageTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLLanguageTool/GLLanguageTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6FADEE86FA25767D5C19801CE8AEB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1EB7786E5089B18A5ADB23BEA1C72 /* GLScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLScanner/GLScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44FF1034271A0DF9174FA3E91B6D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCD9458B4EBA44F1B132B75733EF1E5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95EFFCEC3CBAA86A7BD008C3BCA578B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193C1C1E9897DAE3C6ACB358489EBB61 /* Pods-GLAlertToolDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615143DC534ED27E350F4F773670205A /* Build configuration list for PBXNativeTarget "GLScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FADEE86FA25767D5C19801CE8AEB5B /* Debug */,
+				08D090822B46370C78C8DF7F475507E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EFF17B2F9F4744BF333320719B004 /* Debug */,
+				C44FF1034271A0DF9174FA3E91B6D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24BC42B57550B82C0BED1EE256E4BAE /* Build configuration list for PBXNativeTarget "Pods-GLAlertToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95EFFCEC3CBAA86A7BD008C3BCA578B /* Debug */,
+				3B82BE8D3640F4F4D0871B0FCFB96317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BAA7365BF19C3E6FD4D719B4A6B8BB /* Build configuration list for PBXNativeTarget "GLLanguageTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9EB8F32234128850C4A4E3CA4F16FF /* Debug */,
+				725D3584DF233EE5FD2821169628A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

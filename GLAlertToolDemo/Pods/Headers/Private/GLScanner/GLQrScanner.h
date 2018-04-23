@@ -1,0 +1,1 @@
+../../../GLScanner/GLScanner/GLQrScanner.h

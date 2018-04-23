@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../GLAlertTool/GLAlertTool.m"
+            timestampString = "546170795.976815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GLAlertTool HUD]"
+                  moduleName = "GLAlertToolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gavin/Desktop/Git_%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/GLAlertTool/GLAlertTool/GLAlertTool.m"
+                  timestampString = "546170795.991212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GLAlertTool setHUD:]"
+                  moduleName = "GLAlertToolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gavin/Desktop/Git_%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/GLAlertTool/GLAlertTool/GLAlertTool.m"
+                  timestampString = "546170795.994162"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
