@@ -23,6 +23,7 @@
 		8668C5BA20887B6400C9F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8668C5B920887B6400C9F1CA /* Main.storyboard */; };
 		8668C6D52089E8E700C9F1CA /* libGLLanguageTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668C6D72089E8E700C9F1CA /* libGLLanguageTool.a */; };
 		8668C6D62089E8E700C9F1CA /* libGLScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668C6D82089E8E700C9F1CA /* libGLScanner.a */; };
+		86FB06D3208F3B2700C84B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB06D2208F3B2700C84B9C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		8668C5DF2088AF3300C9F1CA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8668C6D72089E8E700C9F1CA /* libGLLanguageTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLLanguageTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8668C6D82089E8E700C9F1CA /* libGLScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FB06D2208F3B2700C84B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8C43211B6544A92CEE15657 /* libPods-GLAlertToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLAlertToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8381288724F09C6835EA7FE /* Pods-GLAlertToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLAlertToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLAlertToolDemo/Pods-GLAlertToolDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FB06D3208F3B2700C84B9C /* UIKit.framework in Frameworks */,
 				8668C6D52089E8E700C9F1CA /* libGLLanguageTool.a in Frameworks */,
 				8668C6D62089E8E700C9F1CA /* libGLScanner.a in Frameworks */,
 				8668C5AC20884D4200C9F1CA /* libMBProgressHUD.a in Frameworks */,
@@ -98,6 +101,7 @@
 		0C303A8AE90534558252A046 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86FB06D2208F3B2700C84B9C /* UIKit.framework */,
 				8668C6D72089E8E700C9F1CA /* libGLLanguageTool.a */,
 				8668C6D82089E8E700C9F1CA /* libGLScanner.a */,
 				8668C5AD20884D4200C9F1CA /* libMBProgressHUD.a */,
