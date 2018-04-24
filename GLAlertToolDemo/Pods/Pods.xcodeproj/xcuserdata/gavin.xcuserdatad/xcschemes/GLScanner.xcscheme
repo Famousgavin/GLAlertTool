@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2B6A72ED707D2D4DADE7C20E4CB4F94C'
-               BlueprintName = 'GLScanner'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libGLScanner.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2B6A72ED707D2D4DADE7C20E4CB4F94C"
+               BlueprintName = "GLScanner"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libGLScanner.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

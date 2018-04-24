@@ -3,7 +3,7 @@
  * 文件名称： GLAlertButtonModel.m
  * 项目名称： GLAlertToolDemo
  * 作   者： Gavin Li
- * Blog  ： http://www.dhlee.cn
+ * Blog  ： https://www.dhlee.cn
  * GitHub： https://github.com/Gavin-ldh
  * Copyright © 2018年 Gavin Lee. All rights reserved.
  *

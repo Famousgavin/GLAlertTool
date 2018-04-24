@@ -5,7 +5,9 @@
 ![Platforms](https://img.shields.io/badge/platforms-iOS-orange.svg)
 [![Languages](https://img.shields.io/badge/language-objc-FF69B4.svg?style=plastic)](#)
 
-最好用的多语言工具、一个方法获取多语言、应用内部切换多语言
+最好用的多语言支持工具、一个方法获取多语言、应用内部切换多语言。
+
+支持：英文、简体中文、繁体中文、俄语、法语、日语、韩语、德语、意大利语、西班牙语切换。
 
 
 <br>
@@ -13,10 +15,10 @@
 ## 一、初始化和使用
 初始化在`AppDelegate`导入 `#import <GLLanguageTool.h>`
 ```
-//多语言配置 支持的多语言设置
-[GLLanguageTool shareInstance].languages = GLLanguageEN | GLLanguageZH_HANS | GLLanguageZH_HANT;
-//设置默认语言，不设置会根据当前系统语言设置当前的语言，当前语言不支持默认英语
-[GLLanguageTool setUserLanguageCode:@"zh-Hans"];
+//多语言配置 支持的多语言设置 你需要支持哪些就设置哪些
+[GLLanguageTool shareInstance].languageOptions = GLLanguageOptionEN | GLLanguageOptionZH_HANS | GLLanguageOptionZH_HANT | GLLanguageOptionRU | GLLanguageOptionFR | GLLanguageOptionDE | GLLanguageOptionIT | GLLanguageOptionES | GLLanguageOptionKO | GLLanguageOptionJA;
+//设置当前语言，不设置会根据当前系统语言设置当前的语言，当前语言不支持默认英语
+[GLLanguageTool setCurrentLanguage:GLLanguageOptionZH_HANS];
 ```
 
 <br>
@@ -49,6 +51,7 @@ pod 'GLLanguageTool'
 
 ## 三、更新
 2018.04.20  第一次上传
+2018.04.24  增加没有获取到多语言默认返回英文多语言
 <br>
 <br>
 

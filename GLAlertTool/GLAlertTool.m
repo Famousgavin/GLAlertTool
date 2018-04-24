@@ -18,8 +18,7 @@
  **********************************************************************/
 
 
-#import "NSString+GLLanguage.h"
-#import "GLLanguageTool.h"
+#import <NSString+GLLanguage.h>
 #import "GLAlertTool.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 
@@ -45,17 +44,15 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
 
 
 #pragma mark - Init
-+ (void)load {
-    UIActivityIndicatorView *indicatorView = [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]];
-    // 设置指示器颜色
-    indicatorView.color = [UIColor whiteColor];
-}
-
 + (instancetype)shareInstance {
     static GLAlertTool *tool = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         tool = [[GLAlertTool alloc] init];
+        
+        UIActivityIndicatorView *indicatorView = [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]];
+        // 设置指示器颜色
+        indicatorView.color = [UIColor whiteColor];
     });
     return tool;
 }
@@ -146,7 +143,6 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
 }
 
 + (void)showCustom:(NSString *)custom toView:(UIView *)toView imageName:(NSString *)imageName afterDelay:(NSTimeInterval)delay {
-//    NSAssert(imageName, @"imageName must not be nil.");
     [[GLAlertTool shareInstance] showMessage:custom toView:toView imageName:imageName afterDelay:delay];
 }
 
@@ -337,9 +333,7 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
             }
             
             if (model.style == UIAlertActionStyleCancel) {
-                if (model.color == nil) {
-                    [action setValue:[UIColor blackColor] forKey:@"titleTextColor"];
-                }
+
             }else if (model.style == UIAlertActionStyleDestructive) {
                 
             }else{

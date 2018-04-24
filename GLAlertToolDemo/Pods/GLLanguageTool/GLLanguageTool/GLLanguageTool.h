@@ -3,7 +3,7 @@
  * 文件名称： GLLanguageTool.h
  * 项目名称： GLAlertToolDemo
  * 作   者： Gavin Li
- * Blog  ： http://www.dhlee.cn
+ * Blog  ： https://www.dhlee.cn
  * GitHub： https://github.com/Gavin-ldh
  * 当前版本： 1.0.0
  * 创建日期： 2018/4/19
@@ -18,44 +18,45 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, GLLanguageOptions) {
+typedef NS_OPTIONS(NSInteger, GLLanguageOptions) {
+    /**  没有设置  */
+    GLLanguageOptionNone        = 0x00,
     /**  英文  */
-    GLLanguageEN          = 0x01 << 0,
+    GLLanguageOptionEN          = 0x01 << 0,
     /**  简体中文  */
-    GLLanguageZH_HANS     = 0x01 << 1,
+    GLLanguageOptionZH_HANS     = 0x01 << 1,
     /**  繁体中文  */
-    GLLanguageZH_HANT     = 0x01 << 2,
+    GLLanguageOptionZH_HANT     = 0x01 << 2,
     /**  俄语  */
-    GLLanguageRU          = 0x01 << 3,
+    GLLanguageOptionRU          = 0x01 << 3,
     /**  法语  */
-    GLLanguageFR          = 0x01 << 4,
+    GLLanguageOptionFR          = 0x01 << 4,
     /**  德语  */
-    GLLanguageDE          = 0x01 << 5,
+    GLLanguageOptionDE          = 0x01 << 5,
     /**  意大利  */
-    GLLanguageIT          = 0x01 << 6,
+    GLLanguageOptionIT          = 0x01 << 6,
     /**  西班牙  */
-    GLLanguageES          = 0x01 << 7,
+    GLLanguageOptionES          = 0x01 << 7,
     /**  日语  */
-    GLLanguageJA          = 0x01 << 8,
+    GLLanguageOptionJA          = 0x01 << 8,
     /**  韩语  */
-    GLLanguageKO          = 0x01 << 9,
+    GLLanguageOptionKO          = 0x01 << 9,
 };
 
 @interface GLLanguageTool : NSObject
 
 /**  支持的语言 示例：GLLanguageZH_HANT | GLLanguageEN  默认值：GLLanguageEN  */
-@property (nonatomic, assign) GLLanguageOptions languages;
+@property (nonatomic, assign) GLLanguageOptions languageOptions;
 
 
 + (instancetype)shareInstance;
 
-/**  写入用户设置当前语言 languageCode：系统语言文件key 如：en、zh-Hans、ru... 默认跟随系统，当前系统语言不支持 默认英语 */
-+ (void)setUserLanguageCode:(NSString *)languageCode;
-/**  获取用户设置语言  */
-+ (NSString *)getUserSettingLanguageCode;
+/**  设置当前语言 language：默认跟随系统，当前系统语言不支持 默认英语 */
++ (void)setCurrentLanguage:(GLLanguageOptions)language;
+/**  获取设置的语言  */
++ (GLLanguageOptions)getSettingLanguage;
 
-/**  获取系统的语言 根据支持的语言过滤 默认英语 */
-+ (NSString *)getCurrentLanguage;
-
+/**  获取设置语言的CODE  */
++ (NSString *)getSettingLanguageCode;
 
 @end
