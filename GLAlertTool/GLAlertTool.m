@@ -360,6 +360,4 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
 }
 
 
-
-
 @end
