@@ -5,7 +5,7 @@
 ![Platforms](https://img.shields.io/badge/platforms-iOS-orange.svg)
 [![Languages](https://img.shields.io/badge/language-objc-FF69B4.svg?style=plastic)](#)
 
-MBProgressHUD和UIViewController的简易封装，支持多语言。
+MBProgressHUD和UIAlertController的简易封装，支持多语言。
 
 
 <br>
