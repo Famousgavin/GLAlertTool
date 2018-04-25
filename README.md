@@ -1,7 +1,7 @@
 # GLAlertTool
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com//Gavin-ldh/GLAlertTool/master/License)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-28B9FE.svg)](http://cocoapods.org/pods/GLAlertTool)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-28B9FE.svg)](http://cocoapods.org/pods/GLAlertTool)
 ![Platforms](https://img.shields.io/badge/platforms-iOS-orange.svg)
 [![Languages](https://img.shields.io/badge/language-objc-FF69B4.svg?style=plastic)](#)
 
@@ -35,8 +35,5 @@ pod 'GLAlertTool'
 
 ## 四、其它
 * 在使用前，您有任何不明白都可以查看Demo
-* 如果在使用过程中遇到BUG，希望你能Issues我，谢谢（或者尝试下载最新的框架代码看看BUG修复没有）
-* 如果您有什么建议可以Issues我，谢谢！！！
-* 后续我会持续更新，为它添加更多的功能，欢迎star :)
 * 欢迎关注本人的博客：[http://www.dhlee.cn](https://www.dhlee.cn)
 
