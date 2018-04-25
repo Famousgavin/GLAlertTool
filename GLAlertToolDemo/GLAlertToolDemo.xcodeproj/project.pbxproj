@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049762362A5A5521CF888C49 /* libPods-GLAlertToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C43211B6544A92CEE15657 /* libPods-GLAlertToolDemo.a */; };
 		8631AD9F208D988600A1DFA5 /* GLAlertButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8631AD8C208D988600A1DFA5 /* GLAlertButtonModel.m */; };
 		8631ADA0208D988600A1DFA5 /* GLAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8631AD8D208D988600A1DFA5 /* GLAlertTool.m */; };
 		8631ADA1208D988600A1DFA5 /* GLAlertTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8631AD8E208D988600A1DFA5 /* GLAlertTextFieldModel.m */; };
@@ -22,7 +21,6 @@
 		8668C5B820887B5600C9F1CA /* GLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8668C5B720887B5600C9F1CA /* GLMeViewController.m */; };
 		8668C5BA20887B6400C9F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8668C5B920887B6400C9F1CA /* Main.storyboard */; };
 		8668C6D52089E8E700C9F1CA /* libGLLanguageTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668C6D72089E8E700C9F1CA /* libGLLanguageTool.a */; };
-		8668C6D62089E8E700C9F1CA /* libGLScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8668C6D82089E8E700C9F1CA /* libGLScanner.a */; };
 		86FB06D3208F3B2700C84B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB06D2208F3B2700C84B9C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,9 +78,7 @@
 			files = (
 				86FB06D3208F3B2700C84B9C /* UIKit.framework in Frameworks */,
 				8668C6D52089E8E700C9F1CA /* libGLLanguageTool.a in Frameworks */,
-				8668C6D62089E8E700C9F1CA /* libGLScanner.a in Frameworks */,
 				8668C5AC20884D4200C9F1CA /* libMBProgressHUD.a in Frameworks */,
-				049762362A5A5521CF888C49 /* libPods-GLAlertToolDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SMGX398V4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GLLanguageTool\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+				);
 				INFOPLIST_FILE = GLAlertToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -472,6 +473,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SMGX398V4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GLLanguageTool\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+				);
 				INFOPLIST_FILE = GLAlertToolDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

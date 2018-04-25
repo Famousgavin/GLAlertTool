@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source        = { :git => "https://github.com/Gavin-ldh/GLAlertTool.git", :tag => s.version.to_s }
   s.source_files  = "GLAlertTool/*.{h,m}"
-  s.resources     = "GLAlertTool/Resource/*.{bundle}"
+  s.resources     = "GLAlertTool/Resource/*.{bundle,strings}"
   s.framework     = "UIKit", "Foundation"
   s.requires_arc  = true
 
