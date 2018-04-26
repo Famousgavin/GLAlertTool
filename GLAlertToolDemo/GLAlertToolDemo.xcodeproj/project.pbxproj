@@ -178,7 +178,6 @@
 				8668C5222080A1FB00C9F1CA /* Sources */,
 				8668C5232080A1FB00C9F1CA /* Frameworks */,
 				8668C5242080A1FB00C9F1CA /* Resources */,
-				76CAE76C18C07A6BA17858C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,24 +246,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76CAE76C18C07A6BA17858C4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GLAlertToolDemo/Pods-GLAlertToolDemo-resources.sh",
-				"${PODS_ROOT}/GLScanner/GLScanner/Resource/GLScanner.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GLScanner.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLAlertToolDemo/Pods-GLAlertToolDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		867578A7228758EE4DACD602 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

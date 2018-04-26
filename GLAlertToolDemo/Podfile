@@ -9,6 +9,6 @@ target 'GLAlertToolDemo' do
   
   pod 'GLLanguageTool'
   pod 'MBProgressHUD'#, '~> 1.1.0'
-  pod 'GLScanner'#, '~> 1.0.1'
+#  pod 'GLScanner'#, '~> 1.0.1'
 
 end

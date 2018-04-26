@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B289B1F905F6A41FF6ECD85E4A13FDD3"
+               BlueprintIdentifier = "B45866DB2FFED7E593286073F44ACAD4"
                BlueprintName = "Pods-GLAlertToolDemo"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-GLAlertToolDemo.a">

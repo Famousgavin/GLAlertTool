@@ -1,24 +1,20 @@
 PODS:
-  - GLLanguageTool (1.0.2)
-  - GLScanner (1.0.1)
+  - GLLanguageTool (1.0.3)
   - MBProgressHUD (1.1.0)
 
 DEPENDENCIES:
   - GLLanguageTool
-  - GLScanner
   - MBProgressHUD
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - GLLanguageTool
-    - GLScanner
     - MBProgressHUD
 
 SPEC CHECKSUMS:
-  GLLanguageTool: 1b83cda20afdd2a9155fed1eadd2915f111749b9
-  GLScanner: d944c08054d7572325553eef82dfeb17af66e787
+  GLLanguageTool: d99022b3589a9bcf769cf38e2e9b6b867120c6b5
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
-PODFILE CHECKSUM: a2e15d34114a58e43526576f770913446813ebe5
+PODFILE CHECKSUM: 4b2768a8569d44f24be5916ed6c78c2f68370bc7
 
 COCOAPODS: 1.5.0
