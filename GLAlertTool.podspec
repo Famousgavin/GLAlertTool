@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/Gavin-ldh/GLAlertTool.git", :tag => s.version.to_s }
   s.source_files  = "GLAlertTool/*.{h,m}"
   s.public_header_files = "GLAlertTool/*.{h}"
-  s.resources     = "GLAlertTool/Resource/*.{bundle,strings}"
+  s.resources     = "GLAlertTool/Resource/*.{bundle, lproj}"
   s.frameworks    = "UIKit", "Foundation"
   s.requires_arc  = true
 
