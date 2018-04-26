@@ -1,7 +1,7 @@
 # GLAlertTool
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com//Gavin-ldh/GLAlertTool/master/License)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-28B9FE.svg)](http://cocoapods.org/pods/GLAlertTool)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.2-28B9FE.svg)](http://cocoapods.org/pods/GLAlertTool)
 ![Platforms](https://img.shields.io/badge/platforms-iOS-orange.svg)
 [![Languages](https://img.shields.io/badge/language-objc-FF69B4.svg?style=plastic)](#)
 

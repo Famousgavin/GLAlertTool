@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "GLAlertTool"
-  s.version       = "1.0.1"
+  s.version       = "1.0.2"
   s.summary       = "MBProgressHUD和UIAlertController的简易封装，支持多语言。"
 
   s.homepage      = "https://github.com/Gavin-ldh/GLAlertTool"

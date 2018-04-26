@@ -202,40 +202,49 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
 
 /**  单个按钮提示  */
 + (void)showAlertRadioButtonFromController:(UIViewController *)fromController title:(NSString *)title message:(NSString *)message completion:(void(^)(NSInteger index, UIAlertAction *action, UIAlertController *alertControler))completion {
-    [GLAlertTool showAlertFromController:fromController preferredStyle:UIAlertControllerStyleAlert title:title message:message completion:completion buttonModels:@[kB_MODEL([@"gl_alertPV_2" customLocalizedStringFromTable:@"GLAlertToolLocalizable"], 0, nil, nil)]];
+    [GLAlertTool showAlertFromController:fromController preferredStyle:UIAlertControllerStyleAlert title:title message:message completion:completion buttonModels:@[kB_MODEL([@"gl_alertPV_2" customLocalizedStringFromBundle:[self glAlertToolBundle]], 0, nil, nil)]];
 }
 
 /**  二个按钮提示  */
 + (void)showAlertTwoButtonFromController:(UIViewController *)fromController title:(NSString *)title message:(NSString *)message completion:(void(^)(NSInteger index, UIAlertAction *action, UIAlertController *alertControler))completion {
-    NSArray *models = @[kB_MODEL([@"gl_alertPV_1" customLocalizedStringFromTable:@"GLAlertToolLocalizable"], 0, nil, nil),
-                        kB_MODEL([@"gl_alertPV_2" customLocalizedStringFromTable:@"GLAlertToolLocalizable"], 0, nil, nil),];
+    
+    NSArray *models = @[kB_MODEL([@"gl_alertPV_1" customLocalizedStringFromBundle:[self glAlertToolBundle]], 0, nil, nil),
+                        kB_MODEL([@"gl_alertPV_2" customLocalizedStringFromBundle:[self glAlertToolBundle]], 0, nil, nil),];
     [GLAlertTool showAlertFromController:fromController preferredStyle:UIAlertControllerStyleAlert title:title message:message completion:completion buttonModels:models];
 }
 
 #pragma mark - Private Methods
 /**  获取当前最顶层的window  */
-- (UIWindow *)getTopLevelWindow {
++ (UIWindow *)getTopLevelWindow {
     return [UIApplication sharedApplication].keyWindow;
 }
 
++ (NSBundle *)glAlertToolBundle {
+    static NSBundle *alertToolBundle = nil;
+    if (alertToolBundle == nil) {
+        alertToolBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:NSStringFromClass([self class]) ofType:@"bundle"]];
+    }
+    return alertToolBundle;
+}
+
 - (NSString *)getMessageImageName:(GLMessageImage)type {
-    NSString *imagePath = [NSString stringWithFormat:@"%@.bundle", NSStringFromClass([self class])];
     if (type == GLMessageImageError) {
-        return [imagePath stringByAppendingPathComponent:@"error_white.png"];
+        return [[GLAlertTool glAlertToolBundle] pathForResource:@"error_white" ofType:@"png"];
     }else if (type == GLMessageImageSuccess) {
-        return [imagePath stringByAppendingPathComponent:@"success_white.png"];
+        return [[GLAlertTool glAlertToolBundle] pathForResource:@"success_white" ofType:@"png"];
     }else if (type == GLMessageImageTips) {
-        return [imagePath stringByAppendingPathComponent:@"info_white.png"];
+        return [[GLAlertTool glAlertToolBundle] pathForResource:@"info_white" ofType:@"png"];
     }
     return @"";
 }
+
 
 - (void)showText:(NSString *)text toView:(UIView *)toView bgColor:(UIColor *)bgColor afterDelay:(NSTimeInterval)delay {
     if (self.showMessage != nil) {
         [self.showMessage removeFromSuperview];
     }
     if (toView == nil) {
-        toView = [self getTopLevelWindow];
+        toView = [GLAlertTool getTopLevelWindow];
     }
     
     // 创建指示器
@@ -262,7 +271,7 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
         [self.showMessage removeFromSuperview];
     }
     if (toView == nil) {
-        toView = [self getTopLevelWindow];
+        toView = [GLAlertTool getTopLevelWindow];
     }
     
     // 创建指示器
@@ -293,7 +302,7 @@ typedef NS_ENUM(NSInteger, GLMessageImage) {
       [self.showMessage removeFromSuperview];
     }
     if (toView == nil) {
-       toView = [self getTopLevelWindow];
+       toView = [GLAlertTool getTopLevelWindow];
     }
     
     // 创建hud
