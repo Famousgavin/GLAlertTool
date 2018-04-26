@@ -18,7 +18,7 @@
  **********************************************************************/
 
 
-#import "NSString+GLLanguage.h"
+#import <NSString+GLLanguage.h>
 #import "GLAlertTextFieldModel.h"
 
 @implementation GLAlertTextFieldModel
